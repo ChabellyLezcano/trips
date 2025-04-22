@@ -8,7 +8,7 @@ function TripCard({trip}) {
             <CardMedia component="img" height="140" image={trip.photoUrl} alt={trip.destination}/>
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">{trip.destination}</Typography>
-                <Typography variant="body2" color="text.secondary">{trip.date? new Date(trip.date).toLocaleDateString() : ''}</Typography>
+                <Typography variant="body2" color="text.secondary"></Typography>
                 <Box mt={1}>
                     {Array.from({ length: trip.rating}, (_,i) => (
                         <span key={i}>★</span>

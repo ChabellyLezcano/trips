@@ -1,7 +1,11 @@
+import TripForm from "../components/TripForm";
+
 function CreateTrip() {
     return (
         <>
-        <h1>Create Trip</h1>
+        <div>
+            <TripForm/>
+        </div>
         </>
     )
 }
